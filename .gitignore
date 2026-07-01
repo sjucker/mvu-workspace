@@ -1,0 +1,8 @@
+# The three MVU projects are cloned in as siblings but tracked in their own repos.
+# This wrapper only version-controls shared CLAUDE.md / skills / commands.
+/mvu-platform/
+/mvu-website/
+/mvu-platform-app/
+
+# IDE
+/.idea/
