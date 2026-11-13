@@ -1,7 +1,6 @@
 # MVU Workspace
 
-Shared developer configuration (Claude Code `CLAUDE.md`, skills, and commands) for the
-**Musikverein Harmonie Urdorf (MVU)** projects.
+Shared developer configuration (Claude Code `CLAUDE.md`, skills, and commands) for the **Musikverein Harmonie Urdorf (MVU)** projects.
 
 This repository is a *wrapper*. It does not contain application code — the three MVU
 projects are cloned in as sibling directories and are excluded via `.gitignore` (each
@@ -31,10 +30,10 @@ mvu-workspace/          # this repo (shared CLAUDE.md, skills, commands)
 
 ## The projects
 
-| Project | Stack | Role |
-|---------|-------|------|
-| `mvu-platform` | Spring Boot 3.5 / Java 25, Vaadin Flow 24, PostgreSQL (jOOQ + Flyway) | Admin UI + the REST API consumed by the other two |
-| `mvu-website` | PHP + MySQL | Public website at mvurdorf.ch |
-| `mvu-platform-app` | Flutter | Mobile app (iOS / Android) |
+| Project            | Stack                                                                 | Role                                              |
+|--------------------|-----------------------------------------------------------------------|---------------------------------------------------|
+| `mvu-platform`     | Spring Boot 3.5 / Java 25, Vaadin Flow 24, PostgreSQL (jOOQ + Flyway) | Admin UI + the REST API consumed by the other two |
+| `mvu-website`      | PHP + MySQL                                                           | Public website at mvurdorf.ch                     |
+| `mvu-platform-app` | Flutter                                                               | Mobile app (iOS / Android)                        |
 
 Each project has its own `CLAUDE.md` with build, test, and architecture details.
